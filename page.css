@@ -1,0 +1,227 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Fonts */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #fff;
+    /* padding: 1rem 0; */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    /* background: rgba(21, 21, 165, 0.541); */
+    background: black;
+    color: #fff;
+}
+
+.contact-info span,
+.contact-info a {
+    margin-right: 1rem;
+}
+
+.social-links a {
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    /* background:rgba(21, 21, 165, 0.541); */
+    background: #5a67d8;
+    width:100vw;
+}
+
+.main-header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.background_img{
+/* Adding a background image to the hero section */
+    background-image: url('S62.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Cover the entire container */
+    background-position:top; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 70vh; /* Set the height of the hero section */
+    color: #fff; /* Set text color to white */
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    text-align: center; /* Center text */
+    
+    display: flex;
+    flex-direction: column;
+}
+#ul{
+    padding-bottom: 40px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    height: 60vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    margin-bottom: 2rem;
+}
+
+.hero .btn {
+    background: #4CAF50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    padding: 2rem;
+}
+
+.service {
+    flex: 1;
+    padding: 1rem;
+}
+
+.service-img {
+    flex: 1;
+}
+
+.service-img img {
+    width: 100%;
+    height: auto;
+}
+
+.service .btn {
+    background: #4CAF50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    padding: 2rem;
+}
+
+.feature-text {
+    flex: 2;
+    padding: 1rem;
+}
+
+.feature-list {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.feature-item .icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+/* Agency Section */
+/* .agency {
+    display: flex;
+    padding: 2rem;
+    background: #f4f4f4;
+} */
+
+.video-content {
+    flex: 1;
+    padding: 1rem;
+    text-align: center;
+}
+
+.video-content {
+    background: #5a67d8;
+    color: #fff;
+}
+
+.video-content .video-btn {
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 1rem;
+}
+
+.footer-section h4 {
+    margin-bottom: 1rem;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+}
